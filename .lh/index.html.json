@@ -1,0 +1,94 @@
+{
+    "sourceFile": "index.html",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 19,
+            "patches": [
+                {
+                    "date": 1667119095515,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1667119106587,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,29 +12,6 @@\n   \n </head>\n <body>\n \n-  My balance\n-  $921.48\n-\n-  Spending - Last 7 days\n-\n-  mon\n-  tue\n-  wed\n-  thu\n-  fri\n-  sat\n-  sun\n-\n-  Total this month\n-  $478.33\n-\n-  +2.4%\n-  from last month\n-  \n-  <div class=\"attribution\">\n-    Challenge by <a href=\"https://www.frontendmentor.io?ref=challenge\" target=\"_blank\">Frontend Mentor</a>. \n-    Coded by <a href=\"#\">Your Name Here</a>.\n-  </div>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1667119366723,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,17 @@\n+<!DOCTYPE html>\n+<html lang=\"en\">\n+<head>\n+  <meta charset=\"UTF-8\">\n+  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <!-- displays site properly based on user's device -->\n+\n+  <link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"./images/favicon-32x32.png\">\n+  \n+  <title>Frontend Mentor | Expenses chart component</title>\n+\n+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->\n+  \n+</head>\n+<body>\n+\n+</body>\n+</html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1667119374107,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,27 +7,10 @@\n   <link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"./images/favicon-32x32.png\">\n   \n   <title>Frontend Mentor | Expenses chart component</title>\n \n-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->\n   \n-</head>\n-<body>\n-\n-</body>\n-</html>\n-<!DOCTYPE html>\n-<html lang=\"en\">\n-<head>\n-  <meta charset=\"UTF-8\">\n-  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <!-- displays site properly based on user's device -->\n-\n-  <link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"./images/favicon-32x32.png\">\n   \n-  <title>Frontend Mentor | Expenses chart component</title>\n-\n-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->\n-  \n </head>\n <body>\n \n </body>\n"
+                },
+                {
+                    "date": 1667119383111,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,10 +7,10 @@\n   <link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"./images/favicon-32x32.png\">\n   \n   <title>Frontend Mentor | Expenses chart component</title>\n \n+  link\n   \n-  \n </head>\n <body>\n \n </body>\n"
+                },
+                {
+                    "date": 1667119388817,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n   <link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"./images/favicon-32x32.png\">\n   \n   <title>Frontend Mentor | Expenses chart component</title>\n \n-  link\n+  <link rel=\"stylesheet\" href=\"output.css\">\n   \n </head>\n <body>\n \n"
+                },
+                {
+                    "date": 1667121160891,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,8 +10,8 @@\n \n   <link rel=\"stylesheet\" href=\"output.css\">\n   \n </head>\n-<body>\n+<body >\n \n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1667121167976,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,8 +10,8 @@\n \n   <link rel=\"stylesheet\" href=\"output.css\">\n   \n </head>\n-<body >\n+<body class=\"\">\n \n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1667121177875,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,8 +10,8 @@\n \n   <link rel=\"stylesheet\" href=\"output.css\">\n   \n </head>\n-<body class=\"\">\n+<body class=\"bg-[#fffaf5]\">\n \n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1667121279821,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,8 +10,8 @@\n \n   <link rel=\"stylesheet\" href=\"output.css\">\n   \n </head>\n-<body class=\"bg-[#fffaf5]\">\n+<body class=\"bg-[\t#f8e9dd]\">\n \n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1667121322800,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,8 +10,8 @@\n \n   <link rel=\"stylesheet\" href=\"output.css\">\n   \n </head>\n-<body class=\"bg-[\t#f8e9dd]\">\n-\n+<body class=\"bg-[#f8e9dd]\">\n+<img src=\"\"\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1667121328196,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,7 +11,7 @@\n   <link rel=\"stylesheet\" href=\"output.css\">\n   \n </head>\n <body class=\"bg-[#f8e9dd]\">\n-<img src=\"\"\n+<img src=\"./images/logo.svg\"\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1667121334970,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,7 +11,7 @@\n   <link rel=\"stylesheet\" href=\"output.css\">\n   \n </head>\n <body class=\"bg-[#f8e9dd]\">\n-<img src=\"./images/logo.svg\"\n+\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1667121349755,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,7 +11,11 @@\n   <link rel=\"stylesheet\" href=\"output.css\">\n   \n </head>\n <body class=\"bg-[#f8e9dd]\">\n-\n+<main>\n+  <div>\n+    \n+  </div>\n+</main>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1667121356586,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,8 +13,11 @@\n </head>\n <body class=\"bg-[#f8e9dd]\">\n <main>\n   <div>\n+    <div>\n+\n+    </div>\n     \n   </div>\n </main>\n </body>\n"
+                },
+                {
+                    "date": 1667121377603,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,13 +12,15 @@\n   \n </head>\n <body class=\"bg-[#f8e9dd]\">\n <main>\n-  <div>\n+  <div class=\"\">\n     <div>\n \n     </div>\n-    \n+    <div>\n+\n+    </div>\n   </div>\n </main>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1667121390684,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n   \n </head>\n <body class=\"bg-[#f8e9dd]\">\n <main>\n-  <div class=\"\">\n+  <div class=\"w-[40%\">\n     <div>\n \n     </div>\n     <div>\n"
+                },
+                {
+                    "date": 1667121398289,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n   \n </head>\n <body class=\"bg-[#f8e9dd]\">\n <main>\n-  <div class=\"w-[40%\">\n+  <div class=\"w-[40%] bg-[]\">\n     <div>\n \n     </div>\n     <div>\n"
+                },
+                {
+                    "date": 1667121476748,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n   \n </head>\n <body class=\"bg-[#f8e9dd]\">\n <main>\n-  <div class=\"w-[40%] bg-[\t#ec775f]\">\n+  <div class=\"w-[40%] bg-[#ec775f]\">\n     <div>\n \n     </div>\n     <div>\n"
+                },
+                {
+                    "date": 1667122053765,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n   <div class=\"w-[40%] bg-[#ec775f]\">\n     <div class=\"text-[#fffaf5]\">\n       <div>\n <h1>My balanceg </h1>\n-<h1 class=\"font-bold text-xl tra\">$921.48</h1>\n+<h1 class=\"font-bold text-xl trac\">$921.48</h1>\n </div>\n <img src=\"./images/logo.svg\" alt=\"logo\">\n     </div>\n \n"
+                }
+            ],
+            "date": 1667119095515,
+            "name": "Commit-0",
+            "content": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <!-- displays site properly based on user's device -->\n\n  <link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"./images/favicon-32x32.png\">\n  \n  <title>Frontend Mentor | Expenses chart component</title>\n\n  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->\n  \n</head>\n<body>\n\n  My balance\n  $921.48\n\n  Spending - Last 7 days\n\n  mon\n  tue\n  wed\n  thu\n  fri\n  sat\n  sun\n\n  Total this month\n  $478.33\n\n  +2.4%\n  from last month\n  \n  <div class=\"attribution\">\n    Challenge by <a href=\"https://www.frontendmentor.io?ref=challenge\" target=\"_blank\">Frontend Mentor</a>. \n    Coded by <a href=\"#\">Your Name Here</a>.\n  </div>\n</body>\n</html>"
+        }
+    ]
+}

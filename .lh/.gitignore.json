@@ -1,0 +1,42 @@
+{
+    "sourceFile": ".gitignore",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 6,
+            "patches": [
+                {
+                    "date": 1667138357813,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1667138365015,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,16 +1,1 @@\n-# Avoid accidental upload of the Sketch and Figma design files\n-#####################################################\n-## Please do not remove lines 5 and 6 - thanks! 🙂 ##\n-#####################################################\n-*.sketch\n-*.fig\n \n-# Avoid accidental XD upload if you convert the design file\n-###############################################\n-## Please do not remove line 12 - thanks! 🙂 ##\n-###############################################\n-*.xd\n-\n-# Avoid your project being littered with annoying .DS_Store files!\n-.DS_Store\n-.prettierignore\n"
+                },
+                {
+                    "date": 1667138370519,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-\n+/design\n"
+                },
+                {
+                    "date": 1667138382297,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,2 @@\n /design\n+/node_modules\n"
+                },
+                {
+                    "date": 1667138390259,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,3 @@\n /design\n /node_modules\n+style\n"
+                },
+                {
+                    "date": 1667138395925,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n /design\n /node_modules\n-style\n+style-guide.node_modules\n"
+                },
+                {
+                    "date": 1667138404366,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n /design\n /node_modules\n-style-guide.md\n+style-guide.node_modules\n"
+                }
+            ],
+            "date": 1667138357813,
+            "name": "Commit-0",
+            "content": "# Avoid accidental upload of the Sketch and Figma design files\n#####################################################\n## Please do not remove lines 5 and 6 - thanks! 🙂 ##\n#####################################################\n*.sketch\n*.fig\n\n# Avoid accidental XD upload if you convert the design file\n###############################################\n## Please do not remove line 12 - thanks! 🙂 ##\n###############################################\n*.xd\n\n# Avoid your project being littered with annoying .DS_Store files!\n.DS_Store\n.prettierignore\n"
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "sourceFile": "style-guide.md",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1667121411822,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1667121411822,
+            "name": "Commit-0",
+            "content": "# Front-end Style Guide\n\n## Layout\n\nThe designs were created to the following widths:\n\n- Mobile: 375px\n- Desktop: 1440px\n\n## Colors\n\n### Primary\n\n- Soft red: hsl(10, 79%, 65%)\n- Cyan: hsl(186, 34%, 60%)\n\n### Neutral\n\n- Dark brown: hsl(25, 47%, 15%)\n- Medium brown: \n- Cream: hsl(27, 66%, 92%)\n- Very pale orange: hsl(33, 100%, 98%)\n\n## Typography\n\n### Body Copy\n\n- Font size: 18px\n\n### Font\n\n- Family: [DM Sans](https://fonts.google.com/specimen/DM+Sans)\n- Weights: 400, 700\n"
+        }
+    ]
+}

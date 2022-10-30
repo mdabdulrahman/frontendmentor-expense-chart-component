@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.round{
+    @apply rounded-md w-11 cursor-pointer
+}
+.desk{
+    @apply w-[30%]
+}
+
+@media only screen and (max-width: 1440px) {
+    .round{
+        @apply rounded w-10
+    }
+    .desk{
+        @apply w-6/12
+    }
+}
+@media only screen and (max-width: 991px) {
+    .round{
+        @apply rounded w-9
+    }
+    .desk{
+        @apply w-7/12
+    }
+}
+@media only screen and (max-width: 450px) {
+    .round{
+        @apply rounded w-8
+    }
+    .desk{
+        @apply w-11/12
+    }
+}

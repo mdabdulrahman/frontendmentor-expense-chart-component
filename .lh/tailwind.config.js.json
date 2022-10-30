@@ -1,0 +1,22 @@
+{
+    "sourceFile": "tailwind.config.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1667119242508,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1667119249764,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n /** @type {import('tailwindcss').Config} */\n module.exports = {\n-  content: [\".\"],\n+  content: [\"*.{}\"],\n   theme: {\n     extend: {},\n   },\n   plugins: [],\n"
+                }
+            ],
+            "date": 1667119242508,
+            "name": "Commit-0",
+            "content": "/** @type {import('tailwindcss').Config} */\nmodule.exports = {\n  content: [\".\"],\n  theme: {\n    extend: {},\n  },\n  plugins: [],\n}\n"
+        }
+    ]
+}

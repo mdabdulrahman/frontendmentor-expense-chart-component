@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Expenses chart component</title>
+
+  <link rel="stylesheet" href="output.css">
+  <script src="index.js" defer></script>
+</head>
+<body class="bg-[#f8e9dd] font-['DM_Sans'] ">
+<main >
+  <div class="w-full h-full translate-y-[15%]  " >
+    <!-- my balance -->
+    <div class="text-[#fffaf5]  desk bg-[#ec775f] mx-auto rounded-2xl  py-4 px-8 flex justify-between">
+      <div class="leading-relaxed">
+<h1>My balance </h1>
+<h1 class="font-bold text-xl tracking-wider">$921.48</h1>
+</div>
+<img src="./images/logo.svg" alt="logo">
+    </div>
+<!-- /my balance -->
+<!-- spending section -->
+    <div class="bg-[#fffaf5]  desk mt-5 w-11/12 mx-auto rounded-2xl  py-4 px-8 ">
+<h1 class="text-xl text-[#382314] font-bold">Spending - Last 7 days</h1>
+<!-- graph -->
+<div class="text-[#93867b] border-b-2 pb-6 mx-auto  text-center flex items-end justify-between pt-14 ">
+  <!-- each graph bar -->
+<div class="group">
+  <h1 id="mon-amount" class="group-hover:block hidden bg-[#382314] py-1 transition-all duration-75   px-[6px] text-[#fffaf5]  absolute -translate-y-14 -translate-x-3 rounded my-3">56</h1>
+  <div id="mon" class="h-10 bg-[#ec775f]  round"></div>
+  <p>mon</p>
+</div>
+<div class="group">
+
+  <h1 id="tue-amount" class="group-hover:block hidden bg-[#382314] py-1 transition-all duration-75  text-center  text-[#fffaf5] rounded my-3 absolute -translate-y-14 -translate-x-3 px-[6px]">56</h1>
+  <div id="tue" class="h-20 bg-[#ec775f]  round"></div>
+  <p>tue</p>
+</div>
+<div class="group">
+  <h1 id="wed-amount" class="group-hover:block hidden bg-[#382314] py-1 transition-all duration-75  text-center  text-[#fffaf5] rounded my-3 absolute -translate-y-14 -translate-x-3 px-[6px]">56</h1>
+  <div id="wed" class="h-32 bg-[#ec775f]  round"></div>
+  <p>wed</p>
+</div>
+<div class="group">
+  <h1 id="thu-amount" class="group-hover:block hidden bg-[#382314] py-1 transition-all duration-75  text-center  text-[#fffaf5] rounded my-3 absolute -translate-y-14 -translate-x-3 px-[6px]">56</h1>
+  <div id="thu"  class="h-28 bg-[#ec775f]  round"></div>
+  <p>thu</p>
+</div>
+<div class="group">
+  <h1 id="fri-amount" class="group-hover:block hidden bg-[#382314] py-1 transition-all duration-75  text-center  text-[#fffaf5] rounded my-3 absolute -translate-y-14 -translate-x-3 px-[6px]">56</h1>
+  <div id="fri" class="h-16 bg-[#ec775f]  round"></div>
+  <p>fri</p>
+</div>
+<div class="group">
+  <h1 id="sat-amount" class="group-hover:block hidden bg-[#382314] py-1 transition-all duration-75  text-center  text-[#fffaf5] rounded my-3 absolute -translate-y-14 -translate-x-3 px-[6px]">56</h1>
+  <div id="sat" class="h-28 bg-[#ec775f]  round"></div>
+  <p>sat</p>
+</div>
+<div class="group">
+  <h1 id="sun-amount" class="group-hover:block hidden bg-[#382314] py-1 transition-all duration-75  text-center  text-[#fffaf5] rounded my-3 absolute -translate-y-14 -translate-x-3 px-[6px]">56</h1>
+  <div id="sun" class="h-14 bg-[#ec775f] round"></div>
+  <p>sun</p>
+</div>
+<!-- /each graph bar -->
+</div>   
+<!-- /graph --> 
+<div class="flex justify-between py-8 items-center">
+  <div class="leading-relaxed">
+  <h1 class="text-[#93867b] ">Total this month </h1>
+  <h1 class="text-[#382314] tracking-wider text-4xl font-black">$478.33</h1>
+  </div>
+  <div  class="leading-relaxed">
+    <h1 class="text-[#382314] font-bold">+2.4%</h1>
+    <h1 class="text-[#93867b]">from last month</h1>
+  </div>
+</div>
+<!-- /spending section -->
+</div>
+
+
+  </div>
+
+</main>
+</body>
+</html>

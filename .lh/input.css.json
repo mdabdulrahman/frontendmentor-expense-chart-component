@@ -1,0 +1,26 @@
+{
+    "sourceFile": "input.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1667119281047,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1667121754997,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n-\r\n+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');\r\n @tailwind base;\r\n @tailwind components;\r\n @tailwind utilities;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1667135011946,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,5 +4,6 @@\n @tailwind utilities;\r\n .round{\r\n     @apply rounded-md\r\n }\r\n-@media only screen and (max-width: 991px) {\n\\ No newline at end of file\n+@media only screen and (max-width: 991px) {\r\n+    \n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1667119281046,
+            "name": "Commit-0",
+            "content": "@tailwind base;\r\n@tailwind components;\r\n@tailwind utilities;"
+        }
+    ]
+}
