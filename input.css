@@ -9,7 +9,7 @@
     @apply w-[30%]
 }
 
-@media only screen and (max-width: 1440px) {
+@media only screen and (max-width: 1024px) {
     .round{
         @apply rounded w-10
     }
