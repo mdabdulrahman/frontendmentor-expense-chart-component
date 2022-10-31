@@ -12,10 +12,10 @@ body {
     min-width:100vw
 }
 .round{
-    @apply rounded-md w-11 cursor-pointer
+    @apply rounded-md w-8 cursor-pointer
 }
 .desk{
-    @apply w-[30%]
+    @apply w-full
 }
 
 @media only screen and (max-width: 1024px) {
@@ -23,7 +23,7 @@ body {
         @apply rounded w-10
     }
     .desk{
-        @apply w-6/12
+        @apply w-full
     }
 }
 @media only screen and (max-width: 991px) {
@@ -31,7 +31,7 @@ body {
         @apply rounded w-9
     }
     .desk{
-        @apply w-7/12
+        @apply w-full
     }
 }
 @media only screen and (max-width: 450px) {
@@ -39,6 +39,6 @@ body {
         @apply rounded w-8
     }
     .desk{
-        @apply w-[95%]
+        @apply w-full
     }
 }
