@@ -39,6 +39,6 @@ body {
         @apply rounded w-8
     }
     .desk{
-        @apply w-11/12
+        @apply w-[95%]
     }
 }
